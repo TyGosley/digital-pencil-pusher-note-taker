@@ -34,7 +34,18 @@ app.post('/api/notes', (req, res) => {
     res.json(notes)
 });
 
-// Wildcard route to direct users to a 404 page
+app.delete('/api/notes/:id', (req, res) => {
+  const noteId = req.params.id;
+  const noteIndex = notes.findIndex((note) => note.id === parseInt(noteId));
+  if (noteIndex !== -1) {
+    notes.splice(noteIndex, 1);
+    fs.writeFileSync('./db/db.json', JSON.stringify(notes));
+    res.json(notes);
+  } else {
+    res.status(404).send(`Note with ID ${noteId} not found`);
+  }
+});
+
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
