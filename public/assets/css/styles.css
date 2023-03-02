@@ -29,13 +29,18 @@ body {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
-  color: #EDC5A4;
+  /* color: #EDC5A4; */
 }
 
 .note-title {
   height: 50px;
   margin-top: 13px;
   font-size: 3rem;
+  /* color: #EDC5A4; */
+}
+
+input.note-title,
+.note-textarea {
   color: #EDC5A4;
 }
 
@@ -85,6 +90,6 @@ body {
   background-color: #EDC5A4;
 }
 
-.list-group {
-  color: #EDC5A4;
+ul.list-group {
+  color: #f9f2f0;
 }
