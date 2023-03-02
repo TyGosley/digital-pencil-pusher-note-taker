@@ -18,6 +18,7 @@ body {
 
 .note-textarea,
 .note-title {
+  background-color: #E1341E;
   color: #000000;
   width: 100%;
   outline: none;
