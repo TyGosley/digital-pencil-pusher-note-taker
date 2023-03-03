@@ -48,7 +48,7 @@ Upon saving, your note will be added and the title will be displayed on the left
 
 Clicking on a saved note's title, its content will repopulate the right side of the screen where you can once again view its full content.
 
-Finally, each note in the list also has a delete button (🗑️) next to it in the left menu. When clicked, it will permanently remove that note.
+Finally, each note in the list also has a delete button which will look similar to the 🗑️ icon. When clicked, it will permanently remove that note.
 
 ## Screenshot
 
@@ -74,7 +74,6 @@ N/A
 
 ___
 
-
 [NPM Install](https://docs.npmjs.com/cli/v6/commands/npm-init)
 
 [NPM Inquirer](https://www.npmjs.com/package/inquirer)
@@ -92,4 +91,3 @@ ___
 [JavaScript.info](https://javascript.info/)
 
 [CodeHS](https://codehs.com/)
-
