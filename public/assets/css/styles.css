@@ -79,6 +79,11 @@ input.note-title,
   cursor: pointer;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #EDC5A4;
+  opacity: 1; /* Firefox */
+}
+
 .list-container .list-group-item {
   border-left: none;
   border-right: none;
@@ -88,8 +93,4 @@ input.note-title,
 
 .card {
   background-color: #EDC5A4;
-}
-
-ul.list-group {
-  color: #f9f2f0;
 }
